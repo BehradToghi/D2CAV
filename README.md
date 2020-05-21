@@ -14,7 +14,7 @@ As there were many attributes collected via the OBD connector of the vehicle onl
 | brake_pedal_status         | 0   | 1                | binary        |
 
 
-Along  side the OBD data GPS data for the vehicle was also collected. It is to note that the data collection campaign was conducted in the Northern hemisphere of the planet and West of the Prime Meridian. Following are the attributes used in the project.
+Along  side the OBD data, GPS data for the vehicle was also collected. It is to note that the data collection campaign was conducted in the Northern hemisphere of the planet and West of the Prime Meridian. Following are the attributes collected from GPS, used in the project.
 
 | Attribute    | Min  | Max              |  Unit/measure |
 |--------------|------|------------------|---------------|
@@ -25,7 +25,6 @@ Along  side the OBD data GPS data for the vehicle was also collected. It is to n
 
 
 ### Maneuvers
-
 The dataset is collected in a right-hand traffic country. Following are the maneuvers recognized for the project.
 
 |  Maneuver  | No of Instances | Description                              |
