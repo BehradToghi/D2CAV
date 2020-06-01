@@ -1,6 +1,8 @@
 # D2CAV
 A Vehicular dataset for maneuver classification and driving behavior simulation. 
 
+Work: https://arxiv.org/abs/2005.13781
+
 This is a OBD (On-Board Daignosis) dataset collected from a vehicle for the purpose of maneuver classification and driver behavior simulation. The file system of the dataset is quite simple. The dataset root folder has six subfolders with the named according to the maneuver the data belongs to. There are multiple files inside each of those sub-folders, each representing the instance number of that particular maneuver. Each file in the subfolders has the timestamped attributes. The value of an attribute is saved for 20 seconds before and 20 seconds after the maneuver was recorded/made for data analysis. Following are some details of the dataset.
 
 ### Attributes
@@ -38,3 +40,14 @@ The dataset is collected in a right-hand traffic country. Following are the mane
 
 
 If the dataset is employed for any purpose in your work, please cite the attached research work with it.
+
+BibTex:
+
+@misc{toghi2020maneuverbased,
+    title={A Maneuver-based Urban Driving Dataset and Model for Cooperative Vehicle Applications},
+    author={Behrad Toghi and Divas Grover and Rodolfo Valiente Romero and Yaser P. Fallah},
+    year={2020},
+    eprint={2005.13781},
+    archivePrefix={arXiv},
+    primaryClass={eess.SP}
+}
